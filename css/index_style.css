@@ -1,0 +1,139 @@
+
+.home {
+    height: 700px;
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+}
+.nice {
+    font-size: 75px;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.3);
+
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding: 15px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: orange;
+}
+.navbar-dark .navbar-brand{
+    color: orange;
+}
+.card-layer .layer {
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom:100%;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.7s;
+}
+.layer:hover {
+    opacity: 0.5;
+}
+.line-title {
+    position: relative;
+}
+.line-title:before {
+    
+    content: "";
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    background-color: orange;
+}
+.line-title:after {
+    
+    content: "";
+        
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+
+    background-color: greenyellow;
+}
+.Exmain {
+    background-color: #f9f9f9;
+}
+.box {
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.box .info-title {
+    background-color: #fff;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    transition: bottom 800ms ease 0.35s;
+    
+}
+.box:hover .info-title{
+    bottom: -150px;
+}
+.box img {
+    z-index: 2;
+}
+
+    
+}.info-title h4 {
+    color: #002147;
+    padding-top: 1rem !important;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "segoe ui light";
+
+}
+
+.info-title h5 {
+    color: #ffb606;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding-bottom: 1rem !important;
+    font-family: "segoe ui light";
+
+}
+
+.box .about {
+    background-color: rgba(0, 33, 71, 0.7) ;
+    position: absolute;
+bottom: 100%;
+left: 15px;
+right: 15px;
+    font-family: "segoe ui light";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff !important;
+    transition: bottom 700ms ease 0.35s;
+
+}
+.box:hover .about {
+    bottom: 25%;
+}
+
+.about h3 {
+    padding-top: 3rem !important;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff !important;
+    text-align: center !important;
+
+}
+.about P {
+    margin-bottom: 3rem;
+
+}
